@@ -1,0 +1,67 @@
+S.NO,CROP ,DISTRICT,MONTH
+1,Paddy,Thiruvananthapuram,"Autumn,winter, summer"
+2,Paddy,Kollam,"Autumn,winter, summer"
+3,Paddy,Pathanamthitta,"Autumn,winter, summer"
+4,Paddy,Alappuzha,"Autumn,winter, summer"
+5,Paddy,Kottayam,"Autumn,winter, summer"
+6,Paddy,Idukki,"Autumn,winter, summer"
+7,Paddy,Ernakulam,"Autumn,winter, summer"
+8,Paddy,Thrissur,"Autumn,winter, summer"
+9,Paddy,Palakkad,"Autumn,winter, summer"
+10,Paddy,Malappuram,"Autumn,winter, summer"
+11,Paddy,Kozhikode,"Autumn,winter, summer"
+12,Paddy,Wayanad,
+13,Paddy,Kannur,"Autumn,winter, summer"
+14,Paddy,Kasaragod,"Autumn,winter, summer"
+15,Banana,Thiruvananthapuram,Annual
+16,Banana,Kollam,Annual
+17,Banana,Alappuzha,Annual
+18,Banana,Kottayam,Annual
+19,Banana,Ernakulam,Annual
+20,Banana,Thrissur,Annual
+21,Banana,Palakkad,Annual
+22,Banana,Malappuram,Annual
+23,Banana,Kozhikode,Annual
+24,Banana,Kannur,Annual
+25,Banana,Kasaragod,Annual
+26,Tapioca,Thiruvananthapuram,Annual
+27,Tapioca,Kollam,Annual
+28,Tapioca,Kottayam,Annual
+29,Tapioca,Ernakulam,Annual
+30,Tapioca,Thrissur,Annual
+31,Tapioca,Palakkad,Annual
+32,Tapioca,Malappuram,Annual
+33,Tapioca,Kozhikode,Annual
+34,Tapioca,Kannur,Annual
+35,Tapioca,Kasaragod,Annual
+36,Coconut,Thiruvananthapuram,Perennial
+37,Coconut,Kollam,Perennial
+38,Coconut,Alappuzha,Perennial
+39,Coconut,Kottayam,Perennial
+40,Coconut,Ernakulam,Perennial
+41,Coconut,Thrissur,Perennial
+42,Coconut,Palakkad,Perennial
+43,Coconut,Malappuram,Perennial
+44,Coconut,Kozhikode,Perennial
+45,Coconut,Kannur,Perennial
+46,Coconut,Kasaragod,Perennial
+47,Pepper,Thiruvananthapuram,Perennial
+48,Pepper,Kollam,Perennial
+49,Pepper,Kottayam,Perennial
+50,Pepper,Ernakulam,Perennial
+51,Pepper,Thrissur,Perennial
+52,Pepper,Palakkad,Perennial
+53,Pepper,Malappuram,Perennial
+54,Pepper,Kozhikode,Perennial
+55,Pepper,Kannur,Perennial
+56,Pepper,Kasargod,Perennial
+57,Arecanut,Thiruvananthapuram,Perennial
+58,Arecanut,Kollam,Perennial
+59,Arecanut,Kottayam,Perennial
+60,Arecanut,Eranakulam,Perennial
+61,Arecanut,Thrissur,Perennial
+62,Arecanut,Palakkad,Perennial
+63,Arecanut,Malappuram,Perennial
+64,Arecanut,Kozhikode,Perennial
+65,Arecanut,Kannur,Perennial
+66,Arecanut,Kasaragod,Perennial
