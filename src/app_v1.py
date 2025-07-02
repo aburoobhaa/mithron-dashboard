@@ -129,12 +129,19 @@ def explode_months(df, col):
 # -------------------------------
 available_states = ["Tamil Nadu", "Kerala", "Andhra Pradesh", "Karnataka"]
 state_selected = st.sidebar.selectbox("🕜️ Select State", available_states, index=0)
-
+'''
 csv_paths = {
     "Tamil Nadu": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Tamilnadu.csv",
     "Kerala": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Kerala.csv",
     "Andhra Pradesh": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Andhra.csv",
     "Karnataka": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Karnataka.csv"
+}
+'''
+csv_paths = {
+    "Tamil Nadu": os.path.join("data", "Tamilnadu.csv"),
+    "Kerala": os.path.join("data", "Kerala.csv"),
+    "Andhra Pradesh": os.path.join("data", "Andhra.csv"),
+    "Karnataka": os.path.join("data", "Karnataka.csv")
 }
 
 csv_path = csv_paths[state_selected]
@@ -164,7 +171,8 @@ df['DISTRICT'] = df['DISTRICT'].astype(str).fillna("").str.strip()
 # -------------------------------
 # 🖐️ Logo
 # -------------------------------
-logo_path = r"assets\logo2.png"
+#logo_path = r"assets\logo2.png"
+logo_path = os.path.join("assets", "logo2.png")
 with open(logo_path, "rb") as image_file:
     encoded_logo = base64.b64encode(image_file.read()).decode()
 
