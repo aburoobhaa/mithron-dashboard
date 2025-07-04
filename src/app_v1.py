@@ -129,14 +129,15 @@ def explode_months(df, col):
 # -------------------------------
 available_states = ["Tamil Nadu", "Kerala", "Andhra Pradesh", "Karnataka"]
 state_selected = st.sidebar.selectbox("🕜️ Select State", available_states, index=0)
-'''
-csv_paths = {
-    "Tamil Nadu": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Tamilnadu.csv",
-    "Kerala": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Kerala.csv",
-    "Andhra Pradesh": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Andhra.csv",
-    "Karnataka": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Karnataka.csv"
-}
-'''
+
+# csv_paths = {
+ #   "Tamil Nadu": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Tamilnadu.csv",
+  #  "Kerala": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Kerala.csv",
+   # "Andhra Pradesh": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Andhra.csv",
+    #"Karnataka": r"C:\Users\Aburoobha\OneDrive\Desktop\PROJECT\MITHRON\ALL_EXCEL\New folder\DASHBOARD\data\Karnataka.csv"
+#} '''
+
+
 csv_paths = {
     "Tamil Nadu": os.path.join("data", "Tamilnadu.csv"),
     "Kerala": os.path.join("data", "Kerala.csv"),
